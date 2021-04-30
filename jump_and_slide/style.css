@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.character{
+    background-color: red;
+    height: 70px;
+    width: 30px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.character-slide{
+    background-color: red;
+    height: 30px;
+    width: 70px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
